@@ -1,1 +1,28 @@
-# librarian-journey
+<html>
+    <head>
+        <title>Skylar's First Website</title>
+    </head>
+
+    <body>
+        <h1>Welcome!</h1>
+        <p>This website is a work-in-progress. I'm creating it for my Internet Fundamentals and Design course as part of my MLIS. Thank you for being here!</p>
+
+        <h2>Why I'm Taking This Class</h2>
+
+        <ol>
+            <li>To better understand coding and website design</li>
+            <li>To learn more about the uses and limitations of the internet</li>
+            <li>To have a more well-rounded skillset</li>
+        </ol>
+
+        <h2>My Work</h2>
+
+        <ul>
+            <li>Links</li>
+            <li>Media</li>
+            <li>Forms</li>
+        </ul>
+
+        <p>I'm looking forward to learning more as I go! I expect this journey to be a fun and exciting one. I hope you'll join me as this website grows!</p>
+    </body>
+    </html>
