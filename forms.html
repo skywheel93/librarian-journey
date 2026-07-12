@@ -1,8 +1,9 @@
 <html>
 <head>
-  <title>Table</title>
+  <title>Forms</title>
 </head>
   <body>
+    
     <table>
       <thead>
         <tr>
@@ -64,5 +65,31 @@
         </tr>
       </tbody>
     </table>
+
+    <form action="https://www.example.com/review.php" method="post">
+      <fieldset>
+        <legend>Let's Hear from You!</legend>
+        <label>Name:<input type="text" name="name" /></label>
+        <br />
+        <p>
+          <label for="favorite">Which planet is your favorite? Why?</label>
+          <br />
+          <textarea rows="4" cols="40" name="favorite">Write your answer here</textarea>
+        </p>
+        <br />
+        <p>
+          <label for="website">What is your favorite place to learn about space?</label>
+          <input type="url" name="website" />
+        </p>
+        <br />
+        <p>
+          <label for="picture">Upload a picture of space that you love</label>
+          <input type="file" name="picture" />
+        </p>
+        <br />
+        <label for="submit"><input type="submit" name="submit" value="Submit" /></label>
+      </fieldset>
+    </form>
+    
   </body>
 </html>
